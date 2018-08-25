@@ -1,0 +1,27 @@
+.introCont {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 6em;
+    padding-top: 6em;
+    padding-bottom: 3em;
+}
+
+.hi {
+    padding-bottom: .6em;
+    font-size: 1.4em;
+}
+
+.name {
+    font-size: 5.5em;
+}
+
+.desc {
+    margin-left: 40%;
+    margin-right: 17%;
+}
+
+.para {
+    margin-bottom: 1em;
+
+    font-size: .8em;
+    font-family: 'Playfair Display', serif;
+}
