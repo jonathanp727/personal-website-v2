@@ -1,10 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter, Switch, Route } from 'react-router-dom'
 
-const title = 'Jonathan Phipps';
+import Header from './header';
+import About from './about';
+import Portfolio from './portfolio';
 
 ReactDOM.render(
-  <div>{title}</div>,
+  <BrowserRouter>
+    <div>
+      <Header/>
+      <Switch>
+        <Route exact path='/' component={About} />
+        <Route path='/portfolio' component={Portfolio} />
+      </Switch>
+    </div>
+  </BrowserRouter>,
   document.getElementById('app')
 );
 
