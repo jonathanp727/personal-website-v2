@@ -5,6 +5,7 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import Header from './header';
 import About from './about';
 import Portfolio from './portfolio';
+import './reset.css';
 
 ReactDOM.render(
   <BrowserRouter>

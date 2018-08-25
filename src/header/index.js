@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom';
+
+import styles from './style.css';
 
 const Header = () => (
-  <div>
-    <h1>Jonathan Phipps</h1>
+  <div className={styles.navbar}>
+    <Link to='/'>About</Link>
     <Link to='/portfolio'>Portfolio</Link>
   </div>
 )
